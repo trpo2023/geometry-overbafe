@@ -47,7 +47,8 @@ int main()
       }
       if (name.compare("circle") == 0)
       {
-        str[c] == '(' ? bracketsStatus = 1 : bracketsStatus = 0;
+        bracketsStatus = str[c] == '(' ? 1 : 0;
+        //str[c] == '(' ? bracketsStatus = 1 : bracketsStatus = 0;
         c++;
       }
       else if (name.compare("triangle") == 0)
